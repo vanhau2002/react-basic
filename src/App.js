@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import State from './component/State';
+import Forms from './component/Forms';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Forms />
       </header>
     </div>
   );

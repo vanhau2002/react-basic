@@ -1,6 +1,6 @@
 import React from 'react';
 import Childcomponent from './Childcomponent';
-class Forms extends React.Component {
+class Mycomponents extends React.Component {
     state = {
         firstName: '',
         lastName: ''
@@ -44,11 +44,14 @@ class Forms extends React.Component {
                         onClick={(event) => this.handleSubmit(event)}
                     />
                 </form>
-                <Childcomponent name={'child one'} />
+                <Childcomponent
+                    name={'Andree Right Hand'}
+                    age={20}
+                />
 
             </>
         )
     }
 }
-export default Forms;
+export default Mycomponents;
 

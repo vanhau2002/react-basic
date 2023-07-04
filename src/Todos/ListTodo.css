@@ -1,0 +1,29 @@
+.add-todo {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.add {
+    margin: 0 10px;
+}
+
+.edit {
+    margin: 0 10px;
+}
+
+.todo-child {
+
+    height: 40px;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+}
+
+.todo-child:first-child {
+    border-top: 1px solid grey;
+
+}
+
+button {
+    cursor: pointer;
+}

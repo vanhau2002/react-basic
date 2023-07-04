@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import State from './component/State';
 import Forms from './component/Forms';
+import Mycomponents from './component/Mycomponent';
+import ListTodo from './Todos/ListTodo';
 function App() {
   return (
     <div className="App">
@@ -10,16 +12,17 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-        <Forms />
+        </a> */}
+        <ListTodo />
       </header>
+
     </div>
   );
 }

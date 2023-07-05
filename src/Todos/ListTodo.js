@@ -19,25 +19,28 @@ class ListTodo extends React.Component {
     render() {
         let { listTodo } = this.state;
         return (
-            <div className="list-todo-container">
-                <AddTodo
-                    addNewTodo={this.addNewTodo}
-                />
-                <div className="list-todo-content">
-                    {listTodo && listTodo.length > 0 &&
-                        listTodo.map((item, index) => {
-                            return (
-                                <div className="todo-child" key={item.id}>
-                                    <span> {index + 1} - {item.title} </span>
-                                    <button className="edit"> Edit </button>
-                                    <button className="delete"> Delete </button>
-                                </div>
-                            )
-                        })
-                    }
+            <>
 
+                <div className="list-todo-container">
+                    <AddTodo
+                        addNewTodo={this.addNewTodo}
+                    />
+                    <div className="list-todo-content">
+                        {listTodo && listTodo.length > 0 &&
+                            listTodo.map((item, index) => {
+                                return (
+                                    <div className="todo-child" key={item.id}>
+                                        <span> {index + 1} - {item.title} </span>
+                                        <button className="edit"> Edit </button>
+                                        <button className="delete"> Delete </button>
+                                    </div>
+                                )
+                            })
+                        }
+
+                    </div>
                 </div>
-            </div>
+            </>
         )
     }
 

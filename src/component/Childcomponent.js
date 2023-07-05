@@ -8,10 +8,10 @@ class Childcomponent extends React.Component {
         console.log('>>> call render: ', this.props)
         // let name = this.props.name;
         // let age = this.props.age;
-        let { ten, age } = this.props //cách props ngắn gọn
+        let { name, age } = this.props //cách props ngắn gọn
         return (
             <>
-                <div>Childcomponent: {ten} - {age}</div>
+                <div>Childcomponent: {name} - {age}</div>
             </>
         )
     }

@@ -7,12 +7,12 @@ const Header = () => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#UseState">React-Hook</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <NavLink to="/" className='nav-link'>Home</NavLink>
-                        <NavLink to="/users" className='nav-link'>User</NavLink>
+                        <NavLink to="/" className='nav-link'>UseState</NavLink>
+                        <NavLink to="/UseEffect" className='nav-link'>UseEffect</NavLink>
                         <NavLink to="/Admins" className='nav-link'>Admin</NavLink>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

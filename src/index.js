@@ -6,26 +6,33 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Admin from './component/Router/Admin';
-import User from './component/Router/User';
 
-import Homes from './component/Router/Homes';
+
+
+
+import AppB from './component/Hook/AppB';
+
+import UseState from './component/Router/UseState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
+
     <BrowserRouter>
 
       <Routes>
         <Route path="/" element={<App />}>
           <Route path='Admins' element={<Admin />} />
-          <Route path='users' element={<User />} />
-          <Route index element={<Homes />} />
+          <Route path='UseEffect' element={<AppB />} />
+          <Route index element={<UseState />} />
         </Route>
 
       </Routes>
 
     </BrowserRouter>
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

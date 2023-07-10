@@ -11,7 +11,6 @@ import React from "react";
 import Header from './component/Router/Header';
 import { Outlet } from 'react-router-dom';
 import { useState } from 'react';
-
 function App() {
   return (
     <div className="App">

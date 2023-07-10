@@ -4,7 +4,7 @@ import { useState } from "react";
 import UseEffect from "../Router/UseEffect";
 
 
-function AppB() {
+function AppUseEffect() {
 
     const [show, setShow] = useState(false)
     return (
@@ -15,6 +15,6 @@ function AppB() {
     );
 }
 
-export default AppB;
+export default AppUseEffect;
 
 

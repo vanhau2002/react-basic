@@ -1,20 +1,12 @@
-import { useState, useEffect, } from "react";
+import { memo } from "react";
 
-function Content() {
-    const [title, setTitle] = useState('')
-
-    useEffect(() => {
-        document.title = title
-    }) //để trong useeffect xử lý ra UI cho người dùng trước
+function Content({ onIncrease }) {
     return (
-        <div>
-            <input
-                value={title}
-                onChange={e => setTitle(e.target.value)}
-            />
-        </div>
-
+        <>
+            <h1>Hello anh em </h1>
+            <button onClick={onIncrease}>onClick</button>
+        </>
     )
 }
 
-export default Content
+export default memo(Content)

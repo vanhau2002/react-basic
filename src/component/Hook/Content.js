@@ -1,4 +1,6 @@
+
 import { memo } from "react";
+
 
 function Content({ onIncrease }) {
     return (
@@ -8,5 +10,4 @@ function Content({ onIncrease }) {
         </>
     )
 }
-
 export default memo(Content)

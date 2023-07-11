@@ -16,6 +16,7 @@ const Header = () => {
                         <NavLink to="/UseRef" className='nav-link'>UseRef</NavLink>
                         <NavLink to="/UseCallback" className='nav-link'>UseCallback</NavLink>
                         <NavLink to="/UseReducer" className='nav-link'>UseReducer</NavLink>
+                        <NavLink to="/UseContext" className='nav-link'>UseContext</NavLink>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">

@@ -1,7 +1,5 @@
-
-import { useState } from "react";
-
 import UseEffect from "../Router/UseEffect";
+import { useState } from "react";
 
 
 function AppUseEffect() {
@@ -14,7 +12,4 @@ function AppUseEffect() {
         </div>
     );
 }
-
 export default AppUseEffect;
-
-
